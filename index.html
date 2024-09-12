@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Interactive pricing component</title>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="header_container">
+    <h1>Simple, traffic-based pricing</h1>
+    <p>Sign-up for our 30-day trial. No credit card required.</p>
+  </div>
+
+  <div class="body_container">
+    <div class="header_content">
+      <h3><span class="quantity">100</span>K Pageviews</h3>
+      <h1 class="price">$0.32<span> /month</span></h1>
+    </div>
+
+    <div class="body_contente">
+      <input type="range" id="range_input">
+    </div>
+
+    <div class="footer_content">
+      <h4>Monthly Billing</h4>
+      <div class="checkbox-apple">
+        <input class="yep" id="check-apple" type="checkbox">
+        <label for="check-apple"></label>
+      </div>
+      <h4>Yearly Billing <span>25% </span></h4>
+    </div>
+
+    <div class="finel_content">
+      <div class="les_offre">
+        <div class="only_offre">
+          <img src="images/icon-check.svg" alt="">
+          <h4>Unlimited websites</h4>
+        </div>
+        <div class="only_offre">
+          <img src="images/icon-check.svg" alt="">
+          <h4>100% data ownership</h4>
+        </div>
+        <div class="only_offre">
+          <img src="images/icon-check.svg" alt="">
+          <h4>Email reports</h4>
+        </div>
+      </div>
+      <div class="btn_content">
+        <button class="start_btn">Start my trial</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">hicham drakech</a>.
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
